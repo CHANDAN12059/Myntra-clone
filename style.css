@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.panel{
+    background-color:#ffffff;
+    height:80px;
+    display:flex;
+    justify-content:space-around;
+    
+ 
+
+    align-items: center;
+}
+
+.logo{
+background-image: url("logo1.jpeg");
+height: 36px;
+    width: 53px;
+background-size: cover;
+
+
+
+}
+.options a{
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 10px;;
+    font-weight: 700;
+    color:#282C3F;
+    padding:26px 0px 26px 0px;
+}
+.options sup{
+color:#FF3F6C;
+}
+.options a:hover{
+    border-bottom:2px solid rgb(245, 12, 51);
+
+}
+
+.search{
+    margin-left: 15px;
+    display:flex;
+  
+ border:none;
+ height: 40px;
+ width:400px;
+ justify-content: space-evenly  ;
+
+   
+}
+.searchlogo{
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f5f5f6;
+    color:#c30e5c;
+   
+
+    
+ 
+
+}
+.oo{
+    color:#696e79;
+  
+
+}
+.inputs{
+    width:100%;
+    border:none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #f5f5f6;
+    color:#f5f5f6;
+}
+
+.panelend{
+    width:170px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ .ok{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+} 
+.panelend a{
+    text-decoration: none;
+    color:#000000;
+    font-weight: 700;
+    font-size:12px;
+
+}
+.banner{
+    background-image: url("https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2024/1/1/befe1a50-63d3-4961-be77-abab31cfaedf1704115450252-300.png");
+    height:180px;
+    background-size: cover;
+    
+}
+.bannerparent{
+    padding:20px 0px 0px 0px;
+
+}
+.add{
+    background-image: url("banner.png");
+    height:300px;
+    background-size:contain;
+    background-repeat: no-repeat;
+margin:5px 10% 5px 10%;
+    
+}
+.itemsheading{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.italicc{
+    font-weight: normal;
+}
+.items{
+
+    background-color: rgb(255, 255, 255);
+}
+.photos{
+height:600px;
+background-size: contain;
+background-repeat: no-repeat;
+margin-left:30px;
+}
+.p{
+    width:190px;
+}
+.bannerlast{
+    background-image: url("last.png");
+    height:180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:  1000px;
+    margin-left:8.5%;
+    margin-bottom: 40px;
+    background-color: rgb(237, 236, 236);
+
+    
+}
+.links{
+    height:250px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.links ul{
+    margin-top:20px;
+
+}
+.pl{
+    margin-top:20px;
+
+}
+.links a{
+
+    display: block;
+    color:#282c3f;
+}
+.links p{
+    font-weight: 700;
+
+}
+.applogo{
+    font-size: 50px;
+    margin-top:10px;
+    margin-right:10px;
+}
+.box{
+    height: 235px;
+    width: 48px;
+    background-color:#535756;
+    color:white;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   
+    position:fixed;
+    
+
+
+    top:50%;
+    right:0;
+}
+.rotate{
+    transform: rotate(180deg);
+    font-size: 25px;
+    /* vertical-align: middle; */
+    writing-mode: vertical-lr;
+    font-weight: 700;
+
+   
+
+}
